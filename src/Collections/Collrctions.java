@@ -8,7 +8,7 @@ public class Collrctions {
 		// TODO Auto-generated method stub
 
 		
-		LinkedList<String> name=new LinkedList<String>();
+		LinkedList<String> name=new LinkedList<String>();//Random Access not Availabe
 		
 		name.add("Shadab");
 		name.add("SHahbaz");
@@ -24,8 +24,13 @@ public class Collrctions {
 		System.out.print(name);
 		
 		
-		
-		
+		ArrayList<String> school =new ArrayList<String>(); //Random Access availabe
+		school.add("Shadab");
+		school.add("SHahbaz");
+		school.add("farhan");
+		school.add("Hassan");
+		school.set(2, "sundus");
+		System.out.println(school);
 		
 		
 	}
